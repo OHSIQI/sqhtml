@@ -1,0 +1,32 @@
+/*
+h1 {
+    color: whitesmoke;
+    background-color: burlywood;
+    text-align: center;
+    border: 10px goldenrod solid;
+
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}*/
+
+h1 {
+    color: darksalmon;
+}
+
+.title {
+    background-color: blanchedalmond;
+}
+
+#important {
+    color: burlywood;
+}
+
+h3 {
+    color: maroon;
+}
+
+
+
