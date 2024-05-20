@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <title>Caffeine Calculator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="title">Good Morning</h1>
-    <h3 class="title" id="important">What's for breakfast?</h3>
-    <h3>Yakun?</h3>
-    <button onclick="sayHello()">This is a button</button>
+    <div class="container">
+        <h1>Caffeine Calculator</h1>
+        <div class="input-container">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" min="1" step="any" required>
+        </div>
+        <div class="input-container">
+            <label for="caffeine-content">Caffeine Content (mg):</label>
+            <input type="number" id="caffeine-content" min="1" step="any" required>
+        </div>
+        <div class="input-container">
+            <label for="cups">Cups of Coffee:</label>
+            <input type="number" id="cups" min="0" required>
+        </div>
+        <button id="calculate-btn">Calculate</button>
+        <div id="result"></div>
+        <div id="visual"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
